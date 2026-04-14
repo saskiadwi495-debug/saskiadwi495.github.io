@@ -1,0 +1,61 @@
+body {
+    font-family: arial;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: auto;
+}
+
+#header {
+    background: #ccc;
+    padding: 20px;
+}
+
+#menu-utama {
+    list-style: none;
+}
+
+#menu-utama li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#daftar-artikel {
+    width: 700px;
+    float: left;
+}
+
+.artikel {
+    background: #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#sidebar {
+    width: 300px;
+    float: right;
+    background: #ddd;
+    padding: 10px;
+}
+
+#footer {
+    clear: both;
+    background: #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+#slider {
+    width: 500px;
+    overflow: hidden;
+}
+
+#slider img {
+    width: 500px;
+    display: none;
+}
+
+#slider img.active {
+    display: block;
+}
